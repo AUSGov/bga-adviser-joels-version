@@ -1,0 +1,156 @@
+<div class="filters"> 
+    
+    
+   <!-- 1. POSTCODE -->
+   <div class="filter-item text-field-filter" id="postcode">
+                 
+        <div class="filter-item-title">
+            
+            <div class="text-field-item">
+                <label>Postcode </label>
+                
+                <div class="postcode-input">
+                    <span class="clear-postcode" id="clear-postcode">Remove postcode</span>
+                <input id="postcode-input" type="text" placeholder="Enter postcode"/>
+                <button class="apply-postcode" id="apply-postcode"  filter-type="postcode">Add</button>
+                    
+                </div>
+                
+            </div>
+       </div>
+        
+    </div>
+    
+    
+    
+    <!-- 2. DELIVERY TYPE  -->
+    <div class="filter-item" id="delivery-type">
+
+            <form>
+                <div class="checkbox-item" data-label="in-person" filter-type="delivery-type">
+                <label id="delivery-inperson" data-option="in-person" data-label="in-person" filter-type="delivery-type" > 
+                    
+                    In person services</label>
+                    <input type="checkbox" id="in-person">
+                </div>
+                
+                <div class="checkbox-item" data-label="phone" filter-type="delivery-type">
+                <label id="delivery-phone" data-option="phone" data-label="phone" filter-type="delivery-type">
+                    
+                    Phone services</label>
+                    <input type="checkbox" id="phone">
+                </div>
+                
+                
+                <div class="checkbox-item" data-label="online" filter-type="delivery-type">
+                <label id="delivery-online" data-option="online" data-label="online" filter-type="delivery-type">
+                    
+                    Online services</label>
+                    <input type="checkbox" id="online">
+                </div>
+                
+                <div class="checkbox-item" data-label="home-and-workplace" filter-type="delivery-type">
+                <label data-option="home-and-workplace" data-label="home-and-workplace" filter-type="delivery-type">
+                    
+                    Home &amp; workplace visits</label>
+                    <input type="checkbox" id="home-and-workplace">
+                </div>
+
+           </form>
+      
+    </div>
+
+   
+    
+    <!-- 3. TOPIC -->
+    <div class="filter-item" id="topic">
+                    <div class="filter-item-title">
+                         <p>Topic <span class="mobile-counter"></span></p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12.5" viewBox="0 0 20 12.5">
+                            <g transform="translate(20 12.5) rotate(180)">
+                                <path id="Chevron_Up" data-name="Chevron / Up" d="M10,4.965,2.478,12.5,0,10.018,10,0,20,10.018,17.522,12.5Z" fill="#333" />
+                            </g>
+                        </svg>
+
+                         </div>
+                    <div class="active-filters multi-select">
+                        <ul>
+                            <li filter-type="topic" data-label="digital-and-online" data-option="digital-and-online">Digital and online</li>
+                            
+                            <li filter-type="topic" data-label="dispute-resolution" data-option="dispute-resolution">Dispute resolution</li>
+                            
+                            <li filter-type="topic" data-label="employing-people" data-option="employing-people">Employing people</li>
+                            
+                            <li filter-type="topic" data-label="general-business-advice-and-planning" data-option="general-business-advice-and-planning">General business advice and planning</li>
+                            
+                            <li filter-type="topic" data-label="government-grant-information" data-option="government-grant-information">Government grant information</li>
+                           
+                            <li filter-type="topic" data-label="importing-and-exporting" data-option="importing-and-exporting">Importing and exporting</li>
+                            
+                            
+                            
+                            <li filter-type="topic" data-label="taxation" data-option="taxation">Taxation</li>
+                            
+                            <li filter-type="topic" data-label="work-health-and-safety" data-option="work-health-and-safety">Work health and safety</li>
+                            
+                            
+                        </ul>
+                    </div>                
+                    
+        
+                    <div class="filter-item-content">
+
+                        <form>
+                            <div class="checkbox-item" data-label="digital-a    nd-online" data-option="digital-and-online" filter-type="topic">
+                            <input type="checkbox">
+                            <label data-label="digital-and-online" data-option="digital-and-online">Digital and online</label>
+                            </div>
+                            
+                            <div class="checkbox-item" data-label="dispute-resolution" data-option="dispute-resolution" filter-type="topic">
+                            <input type="checkbox">
+                            <label data-label="dispute-resolution" data-option="dispute-resolution">Dispute resolution</label>
+                            </div>
+                            
+                            <div class="checkbox-item" data-label="employing-people" data-option="employing-people" filter-type="topic">
+                            <input type="checkbox">
+                            <label data-label="employing-people" data-option="employing-people">Employing people</label>
+                            </div>
+                            
+                            <div class="checkbox-item" data-label="general-business-advice-and-planning" data-option="general-business-advice-and-planning" filter-type="topic">
+                            <input type="checkbox">
+                            <label data-label="general-business-advice-and-planning" data-option="general-business-advice-and-planning">General business advice and planning</label>
+                            </div>
+                            
+                            <div class="checkbox-item" data-label="government-grant-information" data-option="government-grant-information" filter-type="topic">
+                            <input type="checkbox">
+                            <label data-label="government-grant-information" data-option="government-grant-information">Government grant information</label>
+                            </div> 
+                            
+                            <div class="checkbox-item" data-label="importing-and-exporting" data-option="importing-and-exporting" filter-type="topic">
+                            <input type="checkbox">
+                            <label data-label="importing-and-exporting" data-option="importing-and-exporting">Importing and exporting</label>
+                            </div> 
+                              
+                                                        
+                            <div class="checkbox-item" data-label="taxation" data-option="taxation" filter-type="topic">
+                            <input type="checkbox">
+                            <label data-label="taxation" data-option="taxation">Taxation</label>
+                            </div>  
+                            
+                            <div class="checkbox-item" data-label="work-health-and-safety" data-option="work-health-and-safety" filter-type="topic">
+                            <input type="checkbox">
+                            <label data-label="work-health-and-safety" data-option="work-health-and-safety">Work health and safety</label>
+                            </div>
+                            
+                            
+                             
+                        </form>
+
+                        </div>
+                    </div>
+            
+    
+ 
+                 
+    </div>
+    
